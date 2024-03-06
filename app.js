@@ -3,14 +3,14 @@ Uchburchakning uchinchi tomonining eng uzun qiymatini qaytaradigan funksiya yasa
 Formula: Eng uzun uchinchi tomon = (tomon1 + tomon2) - 1*/
 
 
-let FirtsSide = 16;
-let SecondSide = 12;
+let firtsSide = 16;
+let secondSide = 12;
 
 function thirdSide(a,b){
- let LongSide = (a+b)-1;
- return LongSide;
+ let longSide = (a+b)-1;
+ return longSide;
 }  
-console.log("Uchunchi tomon uzunligi: " ,thirdSide(FirtsSide,SecondSide));
+console.log("Uchunchi tomon uzunligi: " ,thirdSide(firtsSide,secondSide));
 
 
 
@@ -20,12 +20,12 @@ console.log("Uchunchi tomon uzunligi: " ,thirdSide(FirtsSide,SecondSide));
 let num1 = 13;
 let num2 = 3;
 
-function QoldiqSon(n1,n2){
- let Q = n1%n2;
- return Q;
+function qoldiqSon(n1,n2){
+ let q = n1%n2;
+ return q;
 }
 
-console.log("Qoldiq son: ",QoldiqSon(num1,num2));
+console.log("Qoldiq son: ",qoldiqSon(num1,num2));
 
 
 
@@ -47,8 +47,8 @@ console.log("Turtburchakki yuzi: ",turtburchakYuzi(boyi,eni));
 /* 13-masala Funksiya “a” argument sifatida string ma’lumot qabul qiladi. ushbu funksiya “Something” stringiga ” ” bo’sh joy va “a” stringini birlashtirib qaytarsin.*/
 
 function stringQoshish(a) {
-     let Sentence = "Something " + a;
-     return Sentence;
+     let sentence = "Something " + a;
+     return sentence;
 }
 console.log(stringQoshish("is better than you"));
 
@@ -60,11 +60,11 @@ kvadrat(5) => 25
 kvadrat(9) => 81
 kvadrat(100) => 10000 */
 
-function KV(s){
+function square(s){
     let kvadrat = s**2;
     return kvadrat;
 }
-console.log( "Kvadrat son: ",KV(6));
+console.log( "Kvadrat son: ",square(6));
 
 
 
@@ -85,12 +85,12 @@ console.log(noldan(3));
 
  let burchaklarSoni = 10;
 
-function InnerCorner(n) {
+function innerCorner(n) {
     let formula = (n-2)*180;
     return formula;
     }
 
-    console.log("Shaklning ichki burchaklar yig’indisini: ",InnerCorner(burchaklarSoni));
+    console.log("Shaklning ichki burchaklar yig’indisini: ",innerCorner(burchaklarSoni));
 
 
 
